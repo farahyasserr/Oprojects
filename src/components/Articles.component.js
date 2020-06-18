@@ -49,6 +49,7 @@ export default class Articles extends Component {
 
 
                 </div>
+                <div><button className="allposts">All Posts</button></div>
             </div>
 
         )

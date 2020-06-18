@@ -35,10 +35,10 @@ export default class LastComponent extends Component {
                     <div className="lastcomponentright">
                         <div className="star-ratings-css-full" title=".1000"></div>
                         <p className="lastcomponentp2">10,000 Trust people The full-stack design team <br/> who focuses on digital products whatever they are.</p>
-                        <button className="socialmediabutton"> <i class="fab fa-facebook-f"></i></button>
-                        <button className="socialmediabutton"> <i class="fab fa-facebook-f"></i></button>
-                        <button className="socialmediabutton"> <i class="fab fa-facebook-f"></i></button>
-                        <button className="socialmediabutton"> <i class="fab fa-facebook-f"></i></button>
+                        <button className="socialmediabuttonfacebook"> <i class="fab fa-facebook-f"></i></button>
+                        <button className="socialmediabuttontwitter"> <i class="fab fa-facebook-f"></i></button>
+                        <button className="socialmediabuttongoogle"> <i class="fab fa-facebook-f"></i></button>
+                        <button className="socialmediabuttonyoutube"> <i class="fab fa-facebook-f"></i></button>
 
                     </div>
                 </div>

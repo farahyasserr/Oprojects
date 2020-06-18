@@ -658,10 +658,13 @@ height: 33px;
   padding-top: 30px;
   font-size: 10px;
 }
-.socialmediabutton{
+.socialmediabuttontwitter{
   border-radius: 50%;
   align-self: flex-start;
- 
+ background-image: url("assets/twitter-16.png");
+ background-size: 13px 13px ;
+ background-position: center;
+ background-repeat: no-repeat;
   font-family: Roboto;
   font-size: 12px;
   color: white;
@@ -672,7 +675,64 @@ border: none;
 margin-right: 7px;
 /* box-shadow: 0 10px 50px 0 #707070  ; */
 }
-.socialmediabutton:hover{
+
+.socialmediabuttonyoutube{
+  border-radius: 50%;
+  align-self: flex-start;
+ background-image: url("assets/Youtube.png");
+ background-size: 13px 13px ;
+ background-position: center;
+ background-repeat: no-repeat;
+  font-family: Roboto;
+  font-size: 12px;
+  color: white;
+background-color:#7BC576;
+width: 35px;
+height: 35px;
+border: none;
+margin-right: 7px;
+/* box-shadow: 0 10px 50px 0 #707070  ; */
+}
+.socialmediabuttonfacebook{
+  border-radius: 50%;
+  align-self: flex-start;
+ background-image: url("assets/facebook-16.png");
+ background-size: 13px 13px ;
+ background-position: center;
+ background-repeat: no-repeat;
+  font-family: Roboto;
+  font-size: 12px;
+  color: white;
+background-color:#7BC576;
+width: 35px;
+height: 35px;
+border: none;
+margin-right: 7px;
+/* box-shadow: 0 10px 50px 0 #707070  ; */
+}
+.socialmediabuttongoogle{
+  border-radius: 50%;
+  align-self: flex-start;
+ background-image: url("assets/Google+.png");
+ background-size: 16px 12px ;
+ background-position: center;
+ background-repeat: no-repeat;
+  font-family: Roboto;
+  font-size: 12px;
+  color: white;
+background-color:#7BC576;
+width: 35px;
+height: 35px;
+border: none;
+margin-right: 7px;
+/* box-shadow: 0 10px 50px 0 #707070  ; */
+}
+.socialmediabuttontwitter:hover{
+  opacity:0.7;
+}
+.socialmediabuttonfacebook:hover{
+  opacity:0.7;
+}.socialmediabuttongoogle:hover{
   opacity:0.7;
 }
 .lastlogo{
@@ -762,4 +822,45 @@ text-align: center;
   padding: 0;
   overflow: visible;
   background-color: transparent;
+}
+
+.playbutton{
+  border-radius: 50%;
+ background-image: url("assets/Shape 1.png");
+ background-size: 20px 20px ;
+ background-position: center;
+ background-repeat: no-repeat;
+width: 65px;
+height: 65px;
+border: none;
+box-shadow: 0 6px 20px 0 #c2c2c2  ;
+float:right;
+background-color: white;
+margin-top: -50px;
+margin-right: 500px;
+}
+.playbutton:hover{
+opacity: 0.8;
+}
+.allposts{
+  align-self: center;
+  margin: 0 auto;
+align-self: center;
+align-content: center;
+text-align: center;
+display: block;
+  /* margin-left: 200px;
+  margin-top: 58px; */
+  font-family: Roboto;
+  font-size: 12px;
+  color: black;
+  border-radius: 6px;
+background-color:#9ec79a;
+opacity: 0.3;
+margin-top: 60px;
+width: 132px; 
+height: 39px;
+border: none;
+font-weight: 600;
+box-shadow: 0 6px 20px 0 #c2c2c2  ;
 }
