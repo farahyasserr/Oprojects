@@ -37,7 +37,6 @@
 }
 
 
-
 .circle{
   box-sizing: border-box;
 	display:block;
@@ -212,9 +211,11 @@ height: 33px;
   /* margin:0; */
   padding:0;
   cursor: pointer;
-  margin-top: -17px;
+  margin-top: -15px;
   opacity: 0.58;
-  
+}
+.bestdealsbutton:hover{
+  opacity: 1;
 }
 .images{
   flex: 0 1 auto;
@@ -233,7 +234,8 @@ margin-left: 25px;
 
 
 .logo2{
-  margin-top: 100px;
+  margin-top: 150px;
+  margin-left: -120px;
 }
 .bestdealseach{
  width: 250px;
@@ -323,34 +325,25 @@ margin-bottom: 0px;
   font-size: 30px;
 
 }
-.navvv{
-  display: block;
-  background: transparent;
-  background-color: transparent;
-  flex-direction: row;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  left: 0px;
-}
+
 
 .firstcomponent{
-  height: 500px;
+  height: 550px;
   background-image: url("assets/bk.png");
   /* opacity: 0.5; */
   background-repeat: no-repeat;
-  background-size: 700px 500px;
+  background-size: 800px 550px;
   background-position: right;
-  margin-left: 100px;
+  margin-left: 80px;
   /* background-color: red; */
 }
-.divv{
+.firstcomponentdivv{
   justify-content: center;
-  height: 500px;
+  height: 550px;
   background-image: url("assets/Rectangle.png");
   /* opacity: 0.5; */
   background-repeat: no-repeat;
-  background-size: 700px 500px;
+  background-size: 800px 550px;
   background-position: right;
   margin-left: 100px;
 }
@@ -612,8 +605,7 @@ margin-top: 70px;
   line-height: 1.8;
 }
 .lastcomponent{
-  height: 700px;
-
+  height: 300px;
 }
 
 .lastcomponentflex{
@@ -625,28 +617,29 @@ margin-top: 70px;
   justify-content: space-between;
   /* background-color: rgb(160, 22, 22); */
   width: 60%;
-  height: 700px;
+  height: 200px;
 }
 
 .lastcomponenteach{
-  height: 700px;
+  height: 200px;
   /* background-color: red; */
   align-self: center;
-align-content: center;
+align-content: flex-start;
   margin: auto 0;
 }
 
 .lastcomponentbutton{
   width: 132px;
 height: 33px;
-  text-align: center;
-  align-self: center;
+  text-align: left;
+  align-self: left;
   background: none;
   border:none;
   margin:0 auto;
   display:block;
   font: Medium 25px/30px Roboto;
   letter-spacing: 0px;
+  font-weight: 500;
   color:#4B647E;
   /* margin:0; */
   padding:0;
@@ -656,7 +649,10 @@ height: 33px;
   text-decoration:underline;
 }
 .lastcomponentp1{
-  text-align: center;
+  color: #747474;
+  text-align: left;
+  font-weight: 600;
+  font-size: 16px;
 }
 .lastcomponentp2{
   padding-top: 30px;
@@ -678,4 +674,92 @@ margin-right: 7px;
 }
 .socialmediabutton:hover{
   opacity:0.7;
+}
+.lastlogo{
+margin: 0 auto;
+align-self: center;
+align-content: center;
+text-align: center;
+display: block;
+width: 120px;
+height: 46px;
+margin-top: 30px;
+}
+.lastp{
+  text-align: center;
+  color: #B0B0B0;
+  padding-top: 12px;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.gradientbarlast{
+  background-color: rgb(124, 197, 118);   
+  width: 80px;
+  height:4px;
+  border-radius: 100px;
+  margin: auto;
+  margin-top: 20px;
+}
+.navlogo{
+  float:left;
+  align-self: flex-start;
+  width:100px;
+  margin-left: 200px;
+  margin-top: 15px;
+}
+.navbar-itemm a:hover {
+  text-decoration: none;
+  color: white;
+  opacity: 0.7;
+ }
+ 
+.navlogoitem{
+  align-self: left;
+}
+.logodiv{
+  align-content: left;
+  justify-content: flex-start;
+}
+.signin{
+  margin-top:20px;
+  margin-right: 55px;
+  background-color: #707070;
+  border-radius: 10px;
+  width: 120px;
+height: 40px;
+display: inline-block;
+align-self: center;
+box-shadow: none;
+color: white;
+border: none;
+font-family: Roboto;
+text-align: center;
+}
+.signin:hover{
+  opacity: 0.8; 
+}
+.navbar-itemm{
+  float: right;
+}
+
+.navbar-itemm a {
+  margin-top: 10px;
+  display: block;
+  color: white;
+  font-weight: 400;
+  text-align: center;
+  font-size: 18px;
+  padding: 16px 30px;
+  text-decoration: none;
+}
+.navbaritemm:hover{
+  color:black;
+}
+.ulnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  background-color: transparent;
 }

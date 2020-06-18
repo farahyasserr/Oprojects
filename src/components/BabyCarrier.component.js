@@ -10,7 +10,7 @@ export default class BabyCarrier extends Component {
             <div className="carriercontainer">
 
                 <div className="carrier">
-                    <img src={img2} className="carrierimage2" alt="WeCare Logo" />
+                    {/* <img src={img2} className="carrierimage2" alt="WeCare Logo" /> */}
                     <img src={img1} className="carrierimage" alt="WeCare Logo" />
                 </div>
 

@@ -7,7 +7,7 @@ export default class FirstComponent extends Component {
     render() {
         return (
             <div className="firstcomponent">
-                <div className="divv">
+                <div className="firstcomponentdivv">
                     <img className="logo2" src={logo} width="120" height="20" alt="WeCare Logo" />
 
                     <p className="p1">How to Take Care of</p>

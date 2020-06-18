@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { ResponsiveEmbed, Image } from 'react-bootstrap';
 import { StyleSheet, View, Text, TouchableOpacity} from 'react';
+import logo from "../assets/WeCare.png";
 
 export default class LastComponent extends Component {
     render() {
@@ -41,7 +42,9 @@ export default class LastComponent extends Component {
 
                     </div>
                 </div>
-
+                <img src={logo} className="lastlogo" alt="WeCare Logo" />
+                <div className="gradientbarlast"></div>
+                <p className="lastp">Designed by @uiexpert - 2019</p>
             </div>
 
         )

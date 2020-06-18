@@ -12,32 +12,17 @@ export default class Navigation extends Component {
   render() {
     return (
       <div>
-        <nav className="navbar navbar-expand-lg navbar-light navvv">
-          <a className="navbar-brand" href="https://codingthesmartway.com" target="_blank">
-            <img src={logo} width="143" height="54" alt="WeCare Logo" />
-          </a>
-          {/* <Link to="/" className="navbar-brand">Mern stack app</Link> */}
-
-          <ul className="navbar-nav nav-justified ml-auto">
-            <li className="navbar-item">
-              <Link to="/" className="nav-link">Home</Link>
-            </li>
-            <li className="navbar-item">
-              <Link to="/" className="nav-link">About</Link>
-            </li>
-            <li className="navbar-item">
-              <Link to="/" className="nav-link">Service</Link>
-            </li>
-            <li className="navbar-item">
-              <Link to="/Create" className="nav-link">Pricing</Link>
-            </li>
+        <nav>
+          <ul className="ulnav">
+          <li className="navbar-itemm"><button className="signin">Sign In</button></li>
+            <li className="navbar-itemm"><a href="pricing">Pricing</a></li>
+            <li className="navbar-itemm"><a href="service">Service</a></li>
+            <li className="navbar-itemm"><a href="about">About</a></li>
+            <li className="navbar-itemm"><a className="active" href="home">Home</a></li>
+            <div className="logodiv">
+            <li className="navlogoitem"><a href="https://oprojects.herokuapp.com"><img src={logo} className="navlogo" alt="WeCare Logo" /></a></li>
+            </div>
           </ul>
-
-          <Form inline>
-            {/* <Button variant="outline-secondary">Sign in</Button> */}
-            <Button variant="secondary">Sign in</Button>
-
-          </Form>
         </nav>
 
       </div>
