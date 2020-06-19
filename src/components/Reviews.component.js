@@ -32,7 +32,7 @@ export default class Reviews extends Component {
                     <div className="reviewseach">
                         <div className="articlespdiv">
 
-                            <p className="articlesp1">Here’s How You Can Get Your Kids to Eat Whole Grains</p>
+                            <p className="articlesp1">Jackie Parker</p>
                             <p className="articlesp2">a month ago</p>
                             <div className="star-ratings-css-half" title=".1000"></div>
                             <p className="reviewsp3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer turpis risus, rutrum imperdiet finibus in, iaculis eu leo. Duis vitae turpis augue. Sed ullamcorper faucibus volutpat. Fusce faucibus euismod auctor.</p>
